@@ -1,0 +1,129 @@
+﻿/* 清除浮动 */
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}*
+/*按钮 阴影无扩展 */
+#box{
+	margin: 50px auto;
+	width: 780px;
+	height: 340px;
+}
+#welcome{
+	text-align: right; 
+	position:relative;
+}
+
+.bt {
+margin: 15px auto;
+display: block;
+width: 780px;
+height: 450px;
+opacity:0;
+position: relative;
+text-align: center;
+border-bottom: 1px solid #C5C5C5;
+border-top: 1px solid #C5C5C5;
+box-shadow: 0 1px 0 #F6F6F6, 0 1px 0 #F6F6F6 inset;
+transition: all 0.5s ease-in;
+}
+.button:before, .button1:before, .button2:before, .button3:before, .button4:before {
+content: "";
+width: 180px;
+height: 180px;
+display: block;
+z-index: -1;
+position: absolute;
+background: #ddd;
+left: -10px;
+top: -10px;
+border-radius: 95px;
+box-shadow: inset 2px 2px 4px rgba(0,0,0,0.4);
+}
+.button:after, .button1:after,.button2:after, .button3:after,.button4:after {
+font-size: 28px;
+width: 100%;
+height: 100%;
+line-height: 150px;
+text-align: center;
+position: absolute;
+top: 0;
+display: block;
+font-weight: bold;
+}
+.button4:after {
+content: "测试题管理";
+word-spacing: 25px;
+color: #2BCE66;
+}
+.button3:after {
+content: "提供商管理";
+word-spacing: 25px;
+color: #A0D989;
+}
+.button2:after {
+content: "福利管理";
+word-spacing: 25px;
+color: #7CBCD6;
+}
+.button1:after {
+content: "资源位管理";
+word-spacing: 25px;
+color: rgba(26,89,120,0.9);
+}
+.button:after {
+content: "活动管理";
+word-spacing: 25px;
+color: #09F;
+}
+.button, .button1, .button2 {
+
+margin: 50px auto;
+cursor: pointer;
+height: 160px;
+width: 160px;
+display: block;
+position: absolute;
+color: black;
+text-align: center;
+line-height: 100px;
+border-radius: 80px;
+box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+background: #FFF;
+transition: all 0.5s ease-in;
+}
+.button3, .button4 {
+
+margin: 250px auto;
+cursor: pointer;
+height: 160px;
+width: 160px;
+display: block;
+position: absolute;
+color: black;
+text-align: center;
+line-height: 100px;
+border-radius: 80px;
+box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+background: #FFF;
+transition: all 0.5s ease-in;
+}
+.button {	
+	/*float: left;*/
+	left: 15px;
+}
+.button1 {
+	left: 300px;
+}
+.button2 {
+	right: 15px;
+}
+.button3 {
+	left: 150px;
+}
+.button4 {
+	/*float: right;*/
+	right: 150px;
+}
+

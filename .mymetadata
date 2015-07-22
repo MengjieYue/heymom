@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="heymom"
+  id="myeclipse.1427956880389"
+  context-root="/backend"
+  j2ee-spec="6.0"
+  archive="heymom.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
